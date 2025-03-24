@@ -1,4 +1,4 @@
-package com.example.email;
+package com.example.email.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
