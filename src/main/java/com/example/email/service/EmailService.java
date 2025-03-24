@@ -1,4 +1,11 @@
 package com.example.email.service;
 
-public class EmailService {
+import com.example.email.model.EmailDetail;
+import jakarta.el.ELManager;
+
+public interface EmailService {
+
+    String sendSimpleMail(EmailDetail detail);
+
+
 }
